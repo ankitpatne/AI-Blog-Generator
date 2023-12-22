@@ -4,6 +4,15 @@
 
 This application is a powerful tool that allows users to convert YouTube videos into blog articles effortlessly. Leveraging the capabilities of various technologies such as TailwindCSS, Django, JavaScript, OpenAI API, AssemblyAI, and PostgreSQL, this application ensures a seamless user experience.
 
+## Demonstration
+
+
+https://github.com/ankitpatne/AI-Blog-Generator/assets/50258606/3e42d1c1-64e2-4523-91a7-7ee7e82386be
+
+
+
+
+
 ## Features
 
 1. **YouTube Video to Audio:** The user provides a YouTube video link, and the application uses Python libraries to extract the audio from the video.
