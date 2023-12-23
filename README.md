@@ -42,14 +42,14 @@ https://github.com/ankitpatne/AI-Blog-Generator/assets/50258606/3e42d1c1-64e2-45
 ## Getting Started
 
 1. **Prerequisites:**
-   - Ensure you have Python installed (version X.X.X).
+   - Ensure you have Python installed.
    - Set up a virtual environment and install dependencies using `pip install -r requirements.txt`.
 
 2. **Database Setup:**
-   - Set up PostgreSQL and update the database configurations in the `settings.py` file.
+   - Set up PostgreSQL and update the database configurations in the `ai_blog_app/settings.py` file.
 
 3. **Environment Variables:**
-   - Create a `.env` file with the necessary environment variables (API keys, database credentials, etc.).
+   - Update the `.env` file with the necessary environment variables (API keys, database credentials, etc.).
 
 4. **Running the Application:**
    - Run the Django development server using `python manage.py runserver`.
