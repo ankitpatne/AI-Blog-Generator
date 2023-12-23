@@ -72,7 +72,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ai_blog_app.wsgi.application'
 
 
-# Database
+# Database - SQLite3 Configuration - Uncomment the below code if you prefer using sqlite3 database ######
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 # DATABASES = {
@@ -82,15 +82,15 @@ WSGI_APPLICATION = 'ai_blog_app.wsgi.application'
 #     }
 # }
 
-
+###### PostgreSQL Configuration - Update with your own database details before running the project ###### (if you prefer using sqlite3, comment out the below code and uncomment the above code)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ai_web_app',
-        'USER': 'postgres',
-        'PASSWORD': 'Ankit@12',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'your-db-name',
+        'USER': 'your-username',
+        'PASSWORD': 'your-password',
+        'HOST': 'host-name',
+        'PORT': 'port-number',
     }
 }
 
